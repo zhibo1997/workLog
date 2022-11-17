@@ -1,3 +1,4 @@
+-
 - ## 常用方法
 - App升级版本最好的方式是使用应用市场更新， [常规app升级版本方法](https://www.woshipm.com/pd/4038557.html)
 - ## 解决方法（How）
@@ -7,4 +8,3 @@
 	- [#C] 第三方案使用uniApp推荐的globalStyle``subNVue``配置项， [UniApp原生子窗体](https://uniapp.dcloud.net.cn/collocation/pages.html#app-subnvues) ，uniapp推荐App中是用这个代替前两种窗体，这种方案最后也被放弃；原因：满足可以遮挡法覆盖头部和尾部的导航栏功能，但无法屏蔽左滑右滑安卓原生的退出功能，并且需要使用nvue编写。
 	- ### 开发升级功能中发现部分问题
 		- APP.vue不支持tempalte模板编写
--

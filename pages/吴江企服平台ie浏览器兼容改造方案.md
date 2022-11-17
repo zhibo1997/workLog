@@ -1,0 +1,11 @@
+- 插件版本管理
+	- vue降级为2.7.10，vuex降级到3.6.2，vue-router降级到3.6.5
+	- vite插件需要添加``vite-plugin-vue2``，来保证vue2的编译兼容
+	- v-calendar降级为2.4.1版本
+- 代码内部更改
+	- vuex的store文件更改，将原有的``createStore()``函数式更改为``new Vuex.Store()``创建store类
+	- vueRouter文件更改，将原有的``createRouter()``函数式更改为``new VueRouter``创建router类
+	- ``app.config.globalProperties.$http``降级更改为``Vue.prototype.$http``
+	- 使用``:value.sync``代替``v-model:value``
+	- element.ui需要使用原生事件加``.native``，来使事件生效
+	-
